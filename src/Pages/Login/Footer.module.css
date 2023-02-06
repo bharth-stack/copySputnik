@@ -1,0 +1,40 @@
+.footer_align {
+  width: 100%;
+  height: 3rem;
+  background: #1b171e;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 177.9%;
+  /* or 36px */
+  letter-spacing: 0.01em;
+  /* text-decoration-line: underline; */
+  color: #ffffff;
+}
+.footer_align ul {
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  margin-right: 6.7rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* justify-content: center; */
+  list-style: none;
+}
+.footer_align ul li {
+  transition: all 0.2s;
+  text-decoration: none;
+}
+.footer_align ul li:hover {
+  cursor: pointer;
+  color: #888;
+}
+.footer_policy {
+  display: flex;
+  gap: 2.3rem;
+}
+.footer_img {
+  display: flex;
+  gap: 0.9rem;
+}

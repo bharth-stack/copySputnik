@@ -1,0 +1,111 @@
+.sideNav {
+  display: grid;
+  height: 100%;
+  width: 18%;
+  position: fixed;
+  /* grid-template-rows: 10% 95%; */
+}
+.sideNav_align {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0 1.3rem 1.3rem 0;
+  box-shadow: 0.5rem 0.1rem 1rem 0px #48484c48;
+  align-items: center;
+  /* height: 10%; */
+  /* justify-content: flex-end; */
+}
+.brand_align {
+  width: 60%;
+  margin-top: 1rem;
+}
+.horizantal_line {
+  background-color: #575757;
+  width: 87%;
+  margin-top: 1.2rem;
+}
+.horizantal_line2 {
+  background-color: #575757;
+  width: 87%;
+  margin-top: 17.2rem;
+}
+.dashboard_navigation {
+  margin-top: 1.7rem;
+}
+.dashboard_link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  /* margin-right: 4rem; */
+  justify-content: space-between;
+  transition: all 0.7s;
+  padding: 0.7rem;
+}
+.dashboard_link:hover {
+  cursor: pointer;
+  color: #4036b5;
+  background-color: #f4f0ff;
+  border-radius: 0.4rem;
+  /* border: 0.1rem solid red; */
+}
+.dashboard_link_img {
+  display: flex;
+  gap: 1rem;
+}
+.dashboard_link_img p {
+  /* margin-top: 0.5rem; */
+}
+.icon_align {
+  width: 15%;
+}
+.icon_align_dashboard {
+  width: 12%;
+}
+.icon_align_svg {
+  margin-left: 3rem;
+  width: 5%;
+}
+.icon_align_svg_account {
+  width: 23%;
+}
+.dashboard_account {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.dashboard_account:hover {
+  cursor: pointer;
+}
+.dashboard_account h5 {
+  font-size: 0.7rem;
+}
+.dashboard_account p {
+  font-size: 0.7rem;
+}
+.icon_align_svg_account_ellipse {
+  width: 50%;
+  /* display: block; */
+}
+.dashboard_account_1 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.dashboard_account_ellipse {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+@media (min-width: 1920px) {
+  /* .dashboard_account {
+    margin-top: 27rem;
+  } */
+  .horizantal_line2 {
+    margin-top: 43rem;
+  }
+}

@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 40% 40% 40%;
+  color: rgba(112, 107, 107, 0);
+  /* color: #15e631a3; */
+}
+.pie {
+  width: 100%;
+}
